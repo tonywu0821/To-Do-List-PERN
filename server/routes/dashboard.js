@@ -5,7 +5,7 @@ const pool = require("../db");
 //all todos and name
 
 router.get("/", authorize, async (req, res) => {
-  try {
+  try { 
     // const user = await pool.query(
     //   "SELECT user_name FROM users WHERE user_id = $1",
     //   [req.user.id]
