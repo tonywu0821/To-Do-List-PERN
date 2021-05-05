@@ -1,0 +1,40 @@
+:root {
+  --spacer: 2rem;
+}
+
+body {
+  background: linear-gradient(to left,  #222020, #131111);
+  font-family: Oxygen, sans-serif;
+  font-size: 1.2rem;
+  color:rgb(247, 244, 244);
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  margin-top: 15px;
+  background-color: #000000;
+  min-height: 95vh;
+  width: 95vw;
+  max-width: 1500px;
+  padding: var(--spacer);
+  border-radius: 20px;
+  display: flex-box;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
