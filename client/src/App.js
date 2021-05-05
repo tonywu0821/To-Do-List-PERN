@@ -24,7 +24,7 @@ function App() {
     <>
       <Router>
         <div className="container">
-          <Navbar/>
+          <Navbar isAuthenticated = {isAuthenticated} setAuth={setAuth}/>
           <Switch>
             <Route
               exact path="/"
