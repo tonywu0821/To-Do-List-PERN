@@ -7,17 +7,10 @@ import 'react-toastify/dist/ReactToastify.css';
 export default function Navbar({ isAuthenticated, setAuth }) {
 
   const logout = async e => {
-    //e.preventDefault();
     try {
-      console.log("Logout successfully1");
-
       localStorage.removeItem("token");
-      //console.log("Logout successfully2");
-      //console.log("setAuth" + typeof setAuth);
       setAuth(false);
-      //console.log("Logout successfully3");
       toast.success("Logout successfully");
-      //console.log("Logout successfully");
     } catch (err) {
       console.error(err.message);
     }
