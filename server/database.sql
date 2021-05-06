@@ -2,6 +2,7 @@ CREATE DATABASE authtodolist;
 
 -- install the uuid extenstion
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
 -- define users table
 CREATE TABLE users(
   user_id UUID DEFAULT uuid_generate_v4(),
