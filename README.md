@@ -1,7 +1,7 @@
 # YouToDo-PERN
 The YouToDo is a web application that provide a private To-Do List for different users to manage their tasks. This web app is develop in PERN(PostgreSQL, Express, React, Node.js) Stack.
 
-[Try it on heroku!](https://pern-deploy-0506.herokuapp.com/)
+[Try it on heroku!](https://pern-deploy-0505.herokuapp.com/)
 ## Technologies
 This project is created with:
 * PostgreSQL
