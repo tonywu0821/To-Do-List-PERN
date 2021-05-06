@@ -17,7 +17,7 @@ Technologies involved:
 
 ## Gallary
 <p align="center">
-<img src="demo/landing.png">
+<img src="demo/Landing.png">
 <img src="demo/register.png">
 </p>
 <p align="center">
